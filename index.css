@@ -102,7 +102,7 @@
     grid-row: 3;
 }
 
-.ya
+.ya-left
 {
     line-height: 3em;
     grid-column: 1;
@@ -114,7 +114,7 @@
     margin-right: .2em;
 }
 
-.ya::first-letter
+.ya-left::first-letter
 {
     color: #f00;
 }
@@ -160,7 +160,7 @@
 
 input[name='search']
 {
-    border: 2px solid #f7f30f;
+    border: 2px solid rgb(245, 221, 78);
     width: 30em;
     font-size: 1.5em;
 }
@@ -185,9 +185,10 @@ input[name='go']
     position: relative;
     right: 4px;
     bottom: 4px;
+    height: 35px;
 }
 
-.right
+.ya-right
 {
     grid-column: 3;
     grid-row: 1;
@@ -288,4 +289,15 @@ a
 .weather img
 {
     margin: 1px 5px -2px;
+}
+
+.arrow-right
+{
+    font-size: 0;
+    border-top: 19px solid transparent;
+    border-left: 15px solid rgb(245, 221, 78);
+    border-bottom: 19px solid transparent;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
 }
