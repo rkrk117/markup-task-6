@@ -51,6 +51,7 @@
 {
     grid-column: 1;
     grid-row: 1;
+    line-height: 1.7em;
 }
 
 .articles ul
@@ -64,7 +65,7 @@
     font-size: 1.3em;
 }
 
-.articles li:not(:first-of-type):not(:last-of-type):before
+.articles li:before
 {
     content: '•';
     font-size: 85%;
@@ -74,13 +75,10 @@
 .articles li:first-of-type:before,
 .articles li:last-of-type:before
 {
-    content: '•';
-    font-size: 85%;
-    padding-right: 5px;
     opacity: 0;
 }
 
-.advertisment
+.offer
 {
     display: grid;
     grid-template-columns: 1fr;
@@ -221,6 +219,7 @@ a
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 1fr;
     grid-gap: 20px;
+    line-height: 1.4em;
 }
 
 .column1
@@ -276,11 +275,17 @@ a
 
 }
 
-.shading-bot
+.shading-bottom
 {
     margin-top: -25px;
     background: linear-gradient(to bottom, 
     rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     height: 40px;
     position: relative;
+}
+
+.traffic img,
+.weather img
+{
+    margin: 1px 5px -2px;
 }
