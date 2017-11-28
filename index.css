@@ -184,7 +184,7 @@ input[name='go']
     padding: .25em;
     position: relative;
     right: 4px;
-    bottom: 4px;
+    bottom: 3px;
     height: 35px;
 }
 
@@ -294,10 +294,10 @@ a
 .arrow-right
 {
     font-size: 0;
-    border-top: 19px solid transparent;
+    border-top: 17px solid transparent;
     border-left: 15px solid rgb(245, 221, 78);
-    border-bottom: 19px solid transparent;
+    border-bottom: 17px solid transparent;
     position: relative;
-    right: 5px;
-    bottom: 10px;
+    right: 8px;
+    bottom: 8px;
 }
